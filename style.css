@@ -27,14 +27,44 @@ header {
   margin: auto;
 }
 
-/* FLOAT: Discord, List, Access */
-.discord, .access {
-  background-color: aliceblue;
-  width: 20%;
-  height: 50px;
+.discord.box, .access.box {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.list.box {
+  width: 67%;
+  margin-top: 20px;
+  text-align: center;
 } 
+
+li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 5%;
+  
+}
+
+li a, .access.box {
+  text-decoration: none;
+}
+
+.access.box {
+  color: black;
+}
+
+li a {
+  color: white;
+}
+
+.access.box{
+  border-radius: 20%;
+  background-color: #FFFFFF;
+  font-size: 14px;
+}
 /****** RICORDA: cancellare altezze fisse ******/
 
+/* Gestione FLOAT e MARGINI HEADER */
 .discord, .list {
   float: left;
 }
@@ -43,7 +73,6 @@ header {
   float: right;
 }
 
-/* Margini discor, access */
 .discord {
   margin-right: 10%;
 }
@@ -53,17 +82,7 @@ header {
 }
 
 /* List box */
-li {
-  display: inline-block;
-}
 
-/* Da cancellare */
-.list.box {
-  width: 40%;
-  height: 50px;
-  background-color: bisque;
-}  
-/****** RICORDA: cancellare altezze fisse ******/
 
 /* JUMBOTRON */
 .jumbotron {
