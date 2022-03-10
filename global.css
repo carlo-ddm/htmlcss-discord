@@ -2,7 +2,7 @@ header, .jumbotron, section {
   width: 100%;
 }
 
-.container.clearfix {
+.container {
   width: 80%;
   margin: auto;
 }
@@ -10,6 +10,11 @@ header, .jumbotron, section {
 .container-j {
   width: 80%;
   margin: auto;
+}
+
+.and.container {
+  height: 400px;
+  border: 1px solid black;
 }
 
 section {
@@ -38,5 +43,7 @@ h2 {
 img {
   width: 100%;
 }
+
+
 
 
