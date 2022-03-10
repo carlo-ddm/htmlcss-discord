@@ -46,6 +46,7 @@ ul li a  {
   color: white;
 }
 
+
  /* Jumbotron */
  .jumbotron {
   background-image: url(img/jumbo.png);
@@ -68,6 +69,18 @@ h1 {
 }
 
 /* Sectiones */
-.and.container
+.and.container h2  {
+  text-align: center;
+  margin: 10px 0;
+}
 
+.and.container p {
+  text-align: center;
+  
+}
+
+
+.and.container img {
+  display: inline-block;
+}
 

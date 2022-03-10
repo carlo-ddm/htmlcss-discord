@@ -1,3 +1,17 @@
+body {
+  font-family: arial;
+  color: #24272A;
+}
+
+p {
+  font-size: 15px;
+}
+
+a:hover {
+  color: blue;
+  
+}
+
 header, .jumbotron, section {
   width: 100%;
 }
