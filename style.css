@@ -95,18 +95,19 @@ a:hover {
 }
 
 /* JUMBOTRON */
-.jumbotron.clearfix {
+.jumbotron {
   position: relative;
-  background-color: bisque;
+  background-image: url(img/jumbo.png);
+  background-size: cover;
   height: 500px;
 }
 
-.container-b.clearfix {
+.container-j {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 40%;
+  width: 80%;
   margin: auto;
   text-align: center;
 }
