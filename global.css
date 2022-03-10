@@ -28,7 +28,7 @@ section:nth-child(even){
 
 .text {
   text-align: left;
-  padding: 30px;
+  padding: 30px 30px 60px;
 }
 
 h2 {
