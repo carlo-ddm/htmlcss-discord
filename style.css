@@ -4,115 +4,82 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Times New Roman', Times, serif;
-}
-
 .clearfix::after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* Utilities */
-.container {
-  width: 80%;
-  margin: auto;
-}
-
-header, .jumbotron {
-  width: 100%;
-  min-width: 60%;
-}
-
-/* HEATHER */
 header {
-  background-color: #265EE8;
+  background-color: #255EE9;
 }
 
-.heather.container.clearfix {
-  background-color: #265EE8;
+nav {
+  width: 80%;
 }
 
-.discord.box, .access.box {
-  margin-top: 20px;
-  text-align: center;
+.logo.box, .access.box {
+  width: 10%;
 }
 
-.list.box {
-  width: 65%;
-  margin-top: 20px;
-  text-align: center;
-} 
-
-li {
-  display: inline-block;
-  list-style: none;
-  margin: 0 4%;
-}
-
-li a, .access.box {
-  text-decoration: none;
-}
-
-.access.box {
-  color: black;
-}
-
-li a {
-  color: white;
-  font-size: 14px;
-  line-height: 30px;
-}
-
-a:hover {
-  color: blue;
-}
-
-.access.box{
-  width: 5%;
-  border-radius: 20%;
-  background-color: #FFFFFF;
-  font-size: 14px;
-}
-
-.access:hover {
-  color: gray;
-}
-
-.discord, .list {
+.logo.box, nav, .access.box {
   float: left;
-}
-
-.access {
-  float: right;
-  margin-left: 10%;
+  margin-top: 20px;
+  text-align: center;
   line-height: 30px;
 }
+ #log {
+   vertical-align: middle;
+ }
 
-.discord {
-  margin-right: 10%;
+ ul {
+  list-style: none;
 }
 
-/* JUMBOTRON */
-.jumbotron {
-  position: relative;
+ul li {
+  display: inline-block;
+  margin: 0 3%;
+}
+
+ul li a  {
+  text-decoration: none;
+  color: white;
+}
+
+ /* Jumbotron */
+ .jumbotron {
   background-image: url(img/jumbo.png);
   background-size: cover;
+  background-position: center;
   height: 500px;
+  padding: 70px 0;
 }
 
 .container-j {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
+  width: 50%;
   margin: auto;
   text-align: center;
+  line-height: 25px;
+  color: white;
 }
 
 h1 {
   margin-bottom: 40px;
 }
+
+/* Sectiones */
+.sec.box.left.pic {
+  background-image: url(img/item1.svg);
+}
+
+.sec.box.right.pic {
+  background-image: url(img/item2.svg);
+}
+
+.sec.box.left.pic-b {
+  background-image: url(img/item3.svg);
+}
+
+
+
 

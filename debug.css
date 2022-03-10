@@ -1,0 +1,15 @@
+.access {
+  background-color: bisque;
+  height: 30px;
+}
+
+.sec.box {
+  float: left;
+  width: calc(100%/2);
+  height: 400px;
+}
+
+section:nth-child(even){
+  background-color: #F4F4F4;
+}
+

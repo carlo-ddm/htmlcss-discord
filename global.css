@@ -1,0 +1,31 @@
+header, .jumbotron, section {
+  width: 100%;
+}
+
+.container.clearfix {
+  width: 80%;
+  margin: auto;
+}
+
+.container-j {
+  width: 80%;
+  margin: auto;
+}
+
+section {
+  height: 500px;
+  padding: 50px;
+}
+
+.sec.box {
+  float: left;
+  width: calc(100%/2);
+  height: 400px;
+}
+
+.pic, .pic-b {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
