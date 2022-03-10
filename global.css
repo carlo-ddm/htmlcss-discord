@@ -17,15 +17,26 @@ section {
   padding: 50px;
 }
 
+section:nth-child(even){
+  background-color: #F4F4F4;
+}
+
 .sec.box {
   float: left;
   width: calc(100%/2);
-  height: 400px;
 }
 
-.pic, .pic-b {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+.text {
+  text-align: left;
+  padding: 30px;
 }
+
+h2 {
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+}
+
 
