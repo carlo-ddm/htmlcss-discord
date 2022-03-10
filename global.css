@@ -7,8 +7,13 @@ p {
   font-size: 15px;
 }
 
-a:hover {
-  color: gray;
+.container.j p {
+  margin-bottom: 20px;
+}
+
+
+a:hover, .btn.j.left a:hover {
+  color: lightgray;
   
 }
 
@@ -65,6 +70,20 @@ img {
   line-height: 20px;
   padding: 5px 10px;
   border-radius: 40px;
+}
+
+.btn.j.left, .btn.j.right {
+  width: 25%;
+  margin: 40px 20px;
+  padding: 10px;
+}
+
+.btn.j.left a {
+  color: #24272A;
+}
+
+.btn.j.right {
+  background-color: #24272A;
 }
 
 
