@@ -41,7 +41,7 @@ ul li {
   margin: 0 3%;
 }
 
-ul li a  {
+a  {
   text-decoration: none;
   color: white;
 }
@@ -76,7 +76,6 @@ h1 {
 
 .and.container p {
   text-align: center;
-  
 }
 
 

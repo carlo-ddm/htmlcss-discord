@@ -8,7 +8,7 @@ p {
 }
 
 a:hover {
-  color: blue;
+  color: gray;
   
 }
 
@@ -57,6 +57,17 @@ h2 {
 img {
   width: 100%;
 }
+
+.btn {
+  display: inline-block;
+  background-color: white;
+  color: #24272A;
+  line-height: 20px;
+  padding: 5px 10px;
+  border-radius: 40px;
+}
+
+
 
 
 
