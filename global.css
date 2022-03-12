@@ -104,19 +104,19 @@ img {
   footer {
     background-color: #1A1D20;
     width: 100%;
+    padding: 40px 0;
   }
 
   .big.col {
     float: left;
     width: 30%;
-    border-bottom: 1px solid white;
   }
 
   .col {
     float: left;
     width: calc(70%/4);
-    border-bottom: 1px solid white;
     padding-right: calc(5%);
+    margin-bottom: 10px;
   }
 
   .col:first-child {
@@ -132,4 +132,38 @@ img {
     margin: 10px 0;
     font-size: 15px;
     color: white;
+    cursor: pointer;
   }
+
+  .big.col img {
+    display: inline-block;
+    width: 20px;
+  }
+
+  .big.col span {
+    color: white;
+  }
+
+  .container.footer.clearfix {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #7C8DDA;
+  }
+
+  .left-foot, .right-foot {
+    float: left;
+    width: 50%;
+    height: 50px;
+  }
+
+  .left-foot #log {
+    display: inline-block;
+    width: 100px;
+  }
+
+  .right-foot {
+    text-align: right;
+  }
+
+.container.footer.clearfix.foot {
+  border-bottom: none;
+}
