@@ -83,4 +83,10 @@ h1 {
   display: inline-block;
 }
 
+.big.col .icons {
+  color: white;
+  display: block;
+  margin-top: 10px;
+}
+
 
