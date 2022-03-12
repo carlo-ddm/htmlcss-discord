@@ -108,12 +108,28 @@ img {
 
   .big.col {
     float: left;
-    width: 50%;
+    width: 30%;
     border-bottom: 1px solid white;
   }
 
   .col {
     float: left;
-    width: calc(50%/4);
+    width: calc(70%/4);
     border-bottom: 1px solid white;
+    padding-right: calc(5%);
+  }
+
+  .col:first-child {
+    color: #7C8DDA;
+  }
+
+  h4 {
+    color: #7C8DDA;
+  }
+
+  .col ul li {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 15px;
+    color: white;
   }
